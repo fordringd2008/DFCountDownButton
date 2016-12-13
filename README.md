@@ -67,5 +67,5 @@ Copy DFCountDownButtonn.h JKCountDownButton.m in JKCountDownButton/ to your proj
 This code is distributed under the terms and conditions of the MIT license.
 
 ## Demo
-![](https://raw.githubusercontent.com/shaojiankui/JKCountDownButton/master/demo.gif)
+![](https://github.com/dingfude2008/DFCountDownButton/blob/master/DFCountDownButton.gif)
 
