@@ -61,7 +61,7 @@
 		AD8247E31DFFDF60009814B1 /* DFCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
-				AD8247FB1DFFDFA1009814B1 /* JKCountDownButton */,
+				AD8247FB1DFFDFA1009814B1 /* DFCountDownButton */,
 				AD8247E71DFFDF60009814B1 /* AppDelegate.h */,
 				AD8247E81DFFDF60009814B1 /* AppDelegate.m */,
 				AD8247EA1DFFDF60009814B1 /* ViewController.h */,
@@ -83,12 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AD8247FB1DFFDFA1009814B1 /* JKCountDownButton */ = {
+		AD8247FB1DFFDFA1009814B1 /* DFCountDownButton */ = {
 			isa = PBXGroup;
 			children = (
 				AD8247FC1DFFDFA1009814B1 /* DFCountDownButton.h */,
 				AD8247FD1DFFDFA1009814B1 /* DFCountDownButton.m */,
 			);
+			name = DFCountDownButton;
 			path = JKCountDownButton;
 			sourceTree = "<group>";
 		};
@@ -324,6 +325,7 @@
 				AD8247FA1DFFDF60009814B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
