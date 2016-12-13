@@ -12,7 +12,7 @@ DFCountDownButton, subclassing UIButton implementation iOS countdown button, reg
  	
 ### Manually
 
-Copy DFCountDownButtonn.h JKCountDownButton.m in JKCountDownButton/ to your project.
+Copy DFCountDownButtonn.h DFCountDownButtonn.m in DFCountDownButton/ to your project.
 
 ## Usage
 ### Code
@@ -44,9 +44,9 @@ Copy DFCountDownButtonn.h JKCountDownButton.m in JKCountDownButton/ to your proj
 
     
 ###xib
-    @property (weak, nonatomic) IBOutlet JKCountDownButton *countDownXib;
+    @property (weak, nonatomic) IBOutlet DFCountDownButton *countDownXib;
 
-    - (IBAction)countDownXibTouched:(JKCountDownButton*)sender {
+    - (IBAction)countDownXibTouched:(DFCountDownButton*)sender {
         __weak typeof(self) weakSelf = self;
         sender.enabled = NO;
         [sender startCountDownWithSecond:10];
