@@ -1,0 +1,2 @@
+# DFCountDownButton
+DFCountDownButton，继承UIButton，实现IOS倒计时按钮，用于注册等发送验证码的时候进行倒计时操作。
