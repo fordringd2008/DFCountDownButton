@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "dingfude2008" => "dingfude@qq.com" }
   s.source       = { :git => "https://github.com/dingfude2008/DFCountDownButton.git", :tag => s.version.to_s }
-  s.source_files = 'DFCountDownButton/DFCountDownButton/*.{h,m}'
+  s.source_files = 'DFCountDownButton/DFCountDownButton/*.{h,m}' 
   s.platform     = :ios, '7.0'
   s.framework    = 'Foundation'
 end
